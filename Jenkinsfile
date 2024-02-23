@@ -17,10 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 #source /home/svaddi/miniconda3/envs/mlip
-                  /home/svaddi/miniconda3/envs/mlip init
+                /home/svaddi/miniconda3/bin/conda init
 
                 # TODO Complete the command to run pytest
-                  /home/svaddi/miniconda3/envs/mlip run -n mlip pytest
+                /home/svaddi/miniconda3/bin/conda run -n mlip pytest
 
                 #echo 'pytest not runned'
                 #exit 1 #comment this line after implementing Jenkinsfile
